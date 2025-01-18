@@ -113,5 +113,14 @@
 				});
 
 			});
+			const modalPopup = document.getElementById("modal");
 
+	// BeforeUnload Modal
+	// function closeModal() {
+	// 	modalPopup.style.display = "none";
+	// }
+
+	// window.addEventListener("beforeunload", (event) => {
+	// 	modalPopup.style.display = "flex";
+	// });
 })(jQuery);

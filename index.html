@@ -15,6 +15,23 @@
 		<script src="https://unpkg.com/htmx.org@1.8.4"></script>
 	</head>
 	<body class="is-preload">
+		<!-- BeforeUnload  Modal -->
+		<div class="modal-popup" id="modal">
+			<div class="modal-overlay" onclick="closeModal()"></div>
+			<div class="modal-content">
+				<h1>Hey!, before you go do you mind leaving a review?</h1>
+				<div>
+					<p>How was your experience?</p>
+					<p>How likely are you to</p>
+					<radio></radio>
+					<p>Were you able to find everything you were looking for?</p>
+					<p>Anything you want to tell me?</p>
+
+					<input></input>
+				</div>
+				<button onclick="closeModal()">Send Review</button>
+			</div>
+		</div>
 
 		<!-- Header -->
 			<header id="header">
@@ -59,8 +76,9 @@
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="images/fulls/home.png" class="image fit thumb"><img src="images/thumbs/home.png" alt="" /></a>
-							<h3>Lambda UI project</h3>
+							<h3>Lambda UI sprint</h3>
 							<p>Simple. Clean. Flexible.</p>
+							<a href="https://nightlyd3v.github.io/Sprint-Challenge--User-Interface/">Check it out</a>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="images/fulls/instaclone.PNG" class="image fit thumb"><img src="images/thumbs/instaclone_thumb.png" alt="" /></a>
@@ -71,6 +89,7 @@
 							<a href="images/fulls/weather.png" class="image fit thumb"><img src="images/thumbs/weather.png" alt="" /></a>
 							<h3>Anytime Weather</h3>
 							<p>Weather app built using openweatherdata api and Wix</p>
+							<a href="https://tylerspaulding95.wixstudio.com/weather">Check it out</a>
 						</article>
 					</div>
 					<ul class="actions">
