@@ -2659,7 +2659,7 @@ input, select, textarea {
 			}
 
 /* BeforeUnload Modal */
-.modal-popup {
+/* .modal-popup {
     display: none;
     position: fixed;
     z-index: 99999;
@@ -2689,7 +2689,7 @@ input, select, textarea {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-} 
+}  */
 
 /* Main */
 
